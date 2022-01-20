@@ -1,0 +1,49 @@
+[
+    {
+        "testcaseID": "IT-CreateArticles-001",
+        "title": "this is title",
+        "desciption": "description",
+        "body": "bodybodybodybody",
+        "tags": ["tag1"],
+        "isSuccess": true
+    },{
+        "testcaseID": "IT-CreateArticles-003",
+        "title": "t",
+        "desciption": "d",
+        "body": "b",
+        "tags": ["t"],
+        "isSuccess": true
+    },
+    {
+        "testcaseID": "IT-CreateArticles-004",
+        "title": "1234567890Abcdabcd!@#$%^&()+=-[]{};'\\:\",./<>?aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "desciption": "1234567890Abcdabcd!@#$%^&()+=-[]{};'\\:\",./<>?aaaaaaaaaaaaaaaaaaaaaaaaaaaaa1234567890Abcdabcd!@#$%^&()_+=-[]{};'\\:\",./<>?aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "body": "1234567890Abcdabcd!@#$%^&()+=-[]{};'\\:\",./<>?aaaaaaaaaaaaaaaaaaaaaaaaaaaaa1234567890Abcdabcd!@#$%^&()+=-[]{};'\\:\",./<>?aaaaaaaaaaaaaaaaaaaaaaaaaaaaa1234567890Abcdabcd!@#$%^&()+=-[]{};'\\:\",./<>?aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "tags": [" ","@","@Tag3!@#$%^&()+=-[]{};'\\:\",./<>?","@tag4","@tag5","@tag6","@tag7","@tag8","@tag9","@tag10","@tag11","@tag12"],
+        "isSuccess": true
+    },
+    {
+        "testcaseID": "IT-CreateArticles-005",
+        "title": "select * from r_user where 1=1",
+        "desciption": "select * from r_user where 1=1",
+        "body": "select * from r_user where 1=1",
+        "tags": ["select * from r_user where 1=1"],
+        "isSuccess": true
+    },
+    {
+        "testcaseID": "IT-CreateArticles-006",
+        "title": "<p>This is a paragraph.</p>",
+        "desciption": "<p>This is a paragraph.</p><p>This is a paragraph.</p>",
+        "body": "<p>This is a paragraph.</p>",
+        "tags": ["<p>This is a paragraph.</p>"],
+        "isSuccess": true
+    },
+    {
+        "testcaseID": "IT-CreateArticles-007",
+        "title": " title7  ",
+        "desciption": "  déc  ",
+        "body": " body2 ",
+        "tags": [" tag1  "],
+        "isSuccess": true
+    }
+]

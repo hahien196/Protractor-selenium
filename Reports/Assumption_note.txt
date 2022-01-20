@@ -1,0 +1,13 @@
+Below is my consumption that need to be confirmed
+
+In Create article page:
+- All text fields has minimum and maximum number of characters, and when user input over maximum characters -> display error message below text field
+- All text fields accept all characters (number, lower/upper characters, special characters)
+- Text fields: Title, Description and Body are required
+- Tag field is not required
+- When input leading and trailing spaces in text fields, all leading and trailing spaces are trimmed
+- When any field is invalid, Publish Article button is disabled
+- Can create article with the exact same content as existed article
+
+In all article list: 
+- List of article display orderly by Last modified date DESC; if there is no modification for article, sorted by Created date DESC
